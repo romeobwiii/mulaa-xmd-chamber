@@ -1,0 +1,21 @@
+{
+    "name": "Mulaa XMD BOT - The Bonding Chamber",
+    "description": "Tribute-driven WhatsApp automation with mythic branding by Amantle Mpaekae (Mulax Prime)",
+    "logo": "https://files.catbox.moe/52699c.jpg",
+    "repository": "https://github.com/romeobwiii/MULAA-XMD",
+    "keywords": ["Mulaa Company", "XMD BOT", "Mulax Prime", "Tribute Automation", "WhatsApp Bot"],
+    "success_url": "/pair",
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }],
+    "env": {
+      "PORT": {
+        "description": "Communion port for the Heartstone (50900 recommended)",
+        "value": "50900",
+        "required": false
+      },
+      "MULAA_SIGNATURE": {
+        "description": "Brand sigil color for MULAA COMPANY (#6A11CB = MULAA Purple)",
+        "value": "#6A11CB",
+        "required": false
+      }
+    }
+}
